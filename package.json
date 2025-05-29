@@ -1,0 +1,26 @@
+{
+  "name": "bhuvaneshwar-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Bhuvaneshwar M - B.Tech IT Student",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "backend",
+    "machine-learning"
+  ],
+  "author": "Bhuvaneshwar M",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

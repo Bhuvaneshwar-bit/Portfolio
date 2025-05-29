@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rolls Royce Ghost
+* source:	https://sketchfab.com/3d-models/rolls-royce-ghost-1f614e803fc24946b83bdc2dd9926d62
+* author:	kurojishi (https://sketchfab.com/kurojishi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rolls Royce Ghost" (https://sketchfab.com/3d-models/rolls-royce-ghost-1f614e803fc24946b83bdc2dd9926d62) by kurojishi (https://sketchfab.com/kurojishi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
