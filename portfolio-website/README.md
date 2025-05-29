@@ -44,9 +44,10 @@ Visit the live portfolio: [Your Render URL will go here]
 ## 📱 Local Development
 
 1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the server: `npm start`
-4. Open `http://localhost:3000`
+2. Navigate to portfolio-website folder
+3. Install dependencies: `npm install`
+4. Start the server: `npm start`
+5. Open `http://localhost:3000`
 
 ## 📧 Contact
 
