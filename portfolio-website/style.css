@@ -2930,7 +2930,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('./inno2.jpg') center center/cover no-repeat;
+  background: url('./assets/inno2.jpg') center center/cover no-repeat;
   background-attachment: fixed;
   opacity: var(--bg-opacity, 0);
   transition: opacity 0.8s ease;
@@ -2973,7 +2973,7 @@ body::after {
 
 /* Second background image for extended hover */
 #achievements.show-background-2::before {
-  background-image: url('./innothon1.jpg');
+  background-image: url('./assets/innothon1.jpg');
   opacity: 0.9;
   transform: scale(1.02);
   filter: brightness(1.2) contrast(1.3) saturate(1.2);
@@ -2982,7 +2982,7 @@ body::after {
 
 /* ScavengerHunt card background effect */
 #achievements.show-scavenger-background::before {
-  background-image: url('./schunt.jpg');
+  background-image: url('./assets/schunt.jpg');
   opacity: 0.9;
   transform: scale(1.02);
   filter: brightness(1.2) contrast(1.3) saturate(1.2);
@@ -2995,7 +2995,7 @@ body::after {
 
 /* Club Activity card background effect */
 #achievements.show-club-background::before {
-  background-image: url('./thic.jpg');
+  background-image: url('./assets/thic.jpg');
   opacity: 0.9;
   transform: scale(1.02);
   filter: brightness(1.2) contrast(1.3) saturate(1.2);
@@ -3008,7 +3008,7 @@ body::after {
 
 /* Second background image for club activity extended hover */
 #achievements.show-club-background-2::before {
-  background-image: url('./thik.jpg');
+  background-image: url('./assets/thik.jpg');
   opacity: 0.9;
   transform: scale(1.02);
   filter: brightness(1.2) contrast(1.3) saturate(1.2);

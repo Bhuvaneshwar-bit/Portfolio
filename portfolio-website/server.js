@@ -9,17 +9,12 @@ app.use(express.static(__dirname));
 
 // Route for the main portfolio page
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'portf.html'));
-});
-
-// Route for thank you page
-app.get('/thank-you', (req, res) => {
-  res.sendFile(path.join(__dirname, 'thank-you.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Handle 404 errors
 app.use((req, res) => {
-  res.status(404).sendFile(path.join(__dirname, 'portf.html'));
+  res.status(404).sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {
