@@ -400,6 +400,28 @@ function setupAchievementHover() {
         achievementsSection.style.setProperty('--bg-opacity', '0');
       });
     }
+
+    // Fourth achievement card (EduBridge - Imp-act-athon, images in assets/edubridge1.jpg, edubridge2.jpg)
+    if (achievementCards[3]) {
+      let eduHoverTimeout;
+
+      achievementCards[3].addEventListener('mouseenter', () => {
+        achievementsSection.classList.add('show-edubridge-background');
+        achievementsSection.style.setProperty('--bg-opacity', '0.9');
+        eduHoverTimeout = setTimeout(() => {
+          achievementsSection.classList.add('show-edubridge-background-2');
+        }, 3000);
+      });
+
+      achievementCards[3].addEventListener('mouseleave', () => {
+        achievementsSection.classList.remove('show-edubridge-background');
+        achievementsSection.classList.remove('show-edubridge-background-2');
+        achievementsSection.style.setProperty('--bg-opacity', '0');
+        if (eduHoverTimeout) {
+          clearTimeout(eduHoverTimeout);
+        }
+      });
+    }
   } else {
     setTimeout(setupAchievementHover, 1000);
   }
